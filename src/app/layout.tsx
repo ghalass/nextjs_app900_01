@@ -1,9 +1,10 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-import Navlink from "@/components/Navlink";
+import Navlink from "@/components/navbar/Navbar";
 
 import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap-icons/font/bootstrap-icons.css";
 import BootstrapClient from "@/components/BootstrapClient";
 
 const geistSans = Geist({
